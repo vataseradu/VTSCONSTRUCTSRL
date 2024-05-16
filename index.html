@@ -4,29 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VĂTASEDANIEL CONSTRUCT S.R.L.</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>VĂTASEDANIEL CONSTRUCT S.R.L.</h1>
+        <div class="container">
+            <h1>VĂTASEDANIEL CONSTRUCT S.R.L.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#despre-noi">Despre Noi</a></li>
+                    <li><a href="#servicii">Servicii</a></li>
+                    <li><a href="#portofoliu">Portofoliu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="despre-noi">
-            <h2>Despre noi</h2>
-            <p>Suntem o firmă de construcții cu experiență, specializată în [domeniu de activitate specific]. Oferim o gamă largă de servicii, de la [enumerați câteva servicii] la [enumerați alte servicii].</p>
-            <p>Ne mândrim cu [calitățile companiei, de exemplu: profesionalismul, calitatea, promptitudinea]. Echipa noastră este formată din [descrieți echipa] și suntem dedicați oferirii clienților noștri a celor mai bune servicii posibile.</p>
+        <section class="despre-noi" id="despre-noi">
+            <div class="container">
+                <h2>Despre Noi</h2>
+                <p>Suntem o firmă de construcții cu [**experiență vastă** (de exemplu: peste 10 ani)] specializată în [**domeniu de activitate specific** (de exemplu: construcții case, renovări apartamente)]. Oferim o gamă largă de servicii, de la [**enumerați câteva servicii** (de exemplu: proiectare, execuție, finisaje)] la [**enumerați alte servicii** (de exemplu: reparații, consultanță)].</p>
+                <p>Ne mândrim cu [**calitățile companiei** (de exemplu: profesionalismul, calitatea, promptitudinea)]. Echipa noastră este formată din [**descrieți echipa** (de exemplu: ingineri experimentați, constructori pricepuți, arhitecți talentați)] și suntem dedicați oferirii clienților noștri a celor mai bune servicii posibile.</p>
+            </div>
         </section>
-        <section class="contact">
-            <h2>Contact</h2>
-            <p>Ne puteți contacta prin:</p>
-            <ul>
-                <li>Email: <a href="mailto:rvatase@gmail.com">rvatase@gmail.com</a></li>
-                <li>[Adaugă alte modalități de contact, de exemplu: telefon, adresă]</li>
-            </ul>
+        <section class="servicii" id="servicii">
+            <div class="container">
+                <h2>Servicii</h2>
+                <ul>
+                    <li>[**Serviciu 1** (o scurtă descriere)]</li>
+                    <li>[**Serviciu 2** (o scurtă descriere)]</li>
+                    <li>[**Serviciu 3** (o scurtă descriere)]</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Vezi toate serviciile</a> </div>
+        </section>
+        <section class="portofoliu" id="portofoliu">
+            <div class="container">
+                <h2>Portofoliu</h2>
+                <p>Vizualizează proiectele noastre finalizate cu succes!</p>
+                </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Ne poți contacta prin:</p>
+                <ul>
+                    <li>Email: <a href="mailto:rvatase@gmail.com">rvatase@gmail.com</a></li>
+                    <li>Telefon: [**Număr de telefon**]</li>
+                    <li>Adresă: [**Adresă completă**]</li>
+                </ul>
+                <form action="#">
+                    <label for="nume">Nume:</label>
+                    <input type="text" id="nume" name="nume" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mesaj">Mesaj:</label>
+                    <textarea id="mesaj" name="mesaj" required></textarea>
+                    <button type="submit">Trimite mesaj</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 VĂTASEDANIEL CONSTRUCT S.R.L.</p>
-    </footer>
-</body>
-</html>
+        <div class="container">
+            <p>&copy; 2024 VĂTASEDANIEL CONSTRUCT S
